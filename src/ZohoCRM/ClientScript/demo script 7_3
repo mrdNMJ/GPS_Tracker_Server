@@ -1,5 +1,5 @@
 // allUsers = zoho.crm.getRecords('Contacts',1,200);
-//test
+//test demo script 7_3
 // info allUsers; 785524973 
 response = invokeurl
 [
