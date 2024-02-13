@@ -1,0 +1,16 @@
+// allUsers = zoho.crm.getRecords('Contacts',1,200);
+//test 11
+// info allUsers; 785524973 
+response = invokeurl
+[
+	url :"https://contacts.zoho.com/file?fs=thumb&ID=785524973"
+	type :GET
+];
+count = invokeurl
+[
+	url :"https://www.zohoapis.com/crm/v4/Contacts/actions/count"
+	type :GET
+	connection:"temporary"
+];
+info count;
+return "";
